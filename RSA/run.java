@@ -4,8 +4,8 @@
  * PURPOSE:                              *
  * LAST MODIFIED: 17.05.20
  ****************************************/
-import java.util. * ;
-import java.io. * ;
+import java.util.*;
+import java.io.*;
 
 public class run {
 	public static void main(String[] args) {
