@@ -4,9 +4,9 @@
 * PURPOSE: implements RSA               
 * LAST MODIFIED: 17.05.20
 ****************************************/
-import java.util. * ;
-import java.io. * ;
-import java.math. * ;
+import java.util.*;
+import java.io.*;
+import java.math.*;
 
 public class RSA {
 
