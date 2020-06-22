@@ -133,8 +133,7 @@ public class RSA {
 	****************************************/
 	private static boolean lehman(long p) {
 		Random rand = new Random();
-		int a,
-		exponent;
+		int a, exponent;
 		long r;
 		boolean negFound = false;
 
@@ -224,15 +223,7 @@ public class RSA {
 	* PURPOSE: gets private key				
 	****************************************/
 	public static long extendedEuclid(long a, long n) {
-		long temp = 0,
-		quotient,
-		lastx = 1,
-		lasty = 0,
-		x = 0,
-		y = 1,
-		tempX,
-		tempY,
-		origN = n;
+		long temp = 0, quotient, lastx = 1, lasty = 0, x = 0, y = 1, tempX, tempY, orig = n;
 
 		//0 = gcd found
 		while (n != 0) {
@@ -252,7 +243,7 @@ public class RSA {
 			lasty = tempY;
 		}
 		if (lastx < 0) {
-			lastx = origN + lastx;
+			lastx = orig + lastx;
 		}
 		return lastx;
 	}
