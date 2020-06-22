@@ -122,7 +122,6 @@ public class RSA {
 				isPrime = true;
 			}
 		}
-
 		return num;
 	}
 
@@ -178,7 +177,6 @@ public class RSA {
 			//is a prime
 			return true;
 		}
-
 	}
 
 	/****************************************
@@ -256,7 +254,6 @@ public class RSA {
 		if (lastx < 0) {
 			lastx = origN + lastx;
 		}
-
 		return lastx;
 	}
 
@@ -307,5 +304,4 @@ public class RSA {
 		}
 		return bits;
 	}
-
 }
